@@ -159,6 +159,8 @@
 		0EC19B081B9EC6E40042933E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Negaihoshi;
 				TargetAttributes = {
@@ -417,6 +419,7 @@
 				0EC19B331B9EC6E40042933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EC19B341B9EC6E40042933E /* Build configuration list for PBXNativeTarget "chiayiTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +428,7 @@
 				0EC19B361B9EC6E40042933E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
