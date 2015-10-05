@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4078F61BC2A8EF007E0A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4078F51BC2A8EF007E0A5B /* AppDelegate.swift */; };
+		BF4078F91BC2A8EF007E0A5B /* chiayi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF4078F71BC2A8EF007E0A5B /* chiayi.xcdatamodeld */; };
+		BF4078FB1BC2A8EF007E0A5B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4078FA1BC2A8EF007E0A5B /* MasterViewController.swift */; };
+		BF4078FD1BC2A8EF007E0A5B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4078FC1BC2A8EF007E0A5B /* DetailViewController.swift */; };
+		BF4079001BC2A8EF007E0A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4078FE1BC2A8EF007E0A5B /* Main.storyboard */; };
+		BF4079021BC2A8EF007E0A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4079011BC2A8EF007E0A5B /* Assets.xcassets */; };
+		BF4079051BC2A8EF007E0A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4079031BC2A8EF007E0A5B /* LaunchScreen.storyboard */; };
+		BF4079101BC2A8EF007E0A5B /* chiayiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40790F1BC2A8EF007E0A5B /* chiayiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF40790C1BC2A8EF007E0A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4078EA1BC2A8EF007E0A5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4078F11BC2A8EF007E0A5B;
+			remoteInfo = chiayi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF4078F21BC2A8EF007E0A5B /* chiayi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chiayi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4078F51BC2A8EF007E0A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF4078F81BC2A8EF007E0A5B /* chiayi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chiayi.xcdatamodel; sourceTree = "<group>"; };
+		BF4078FA1BC2A8EF007E0A5B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BF4078FC1BC2A8EF007E0A5B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BF4078FF1BC2A8EF007E0A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF4079011BC2A8EF007E0A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF4079041BC2A8EF007E0A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF4079061BC2A8EF007E0A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF40790B1BC2A8EF007E0A5B /* chiayiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chiayiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF40790F1BC2A8EF007E0A5B /* chiayiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chiayiTests.swift; sourceTree = "<group>"; };
+		BF4079111BC2A8EF007E0A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF4078EF1BC2A8EF007E0A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4079081BC2A8EF007E0A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4078E91BC2A8EF007E0A5B = {
+			isa = PBXGroup;
+			children = (
+				BF4078F41BC2A8EF007E0A5B /* chiayi */,
+				BF40790E1BC2A8EF007E0A5B /* chiayiTests */,
+				BF4078F31BC2A8EF007E0A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF4078F31BC2A8EF007E0A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF4078F21BC2A8EF007E0A5B /* chiayi.app */,
+				BF40790B1BC2A8EF007E0A5B /* chiayiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF4078F41BC2A8EF007E0A5B /* chiayi */ = {
+			isa = PBXGroup;
+			children = (
+				BF4078F51BC2A8EF007E0A5B /* AppDelegate.swift */,
+				BF4078FA1BC2A8EF007E0A5B /* MasterViewController.swift */,
+				BF4078FC1BC2A8EF007E0A5B /* DetailViewController.swift */,
+				BF4078FE1BC2A8EF007E0A5B /* Main.storyboard */,
+				BF4079011BC2A8EF007E0A5B /* Assets.xcassets */,
+				BF4079031BC2A8EF007E0A5B /* LaunchScreen.storyboard */,
+				BF4079061BC2A8EF007E0A5B /* Info.plist */,
+				BF4078F71BC2A8EF007E0A5B /* chiayi.xcdatamodeld */,
+			);
+			path = chiayi;
+			sourceTree = "<group>";
+		};
+		BF40790E1BC2A8EF007E0A5B /* chiayiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF40790F1BC2A8EF007E0A5B /* chiayiTests.swift */,
+				BF4079111BC2A8EF007E0A5B /* Info.plist */,
+			);
+			path = chiayiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF4078F11BC2A8EF007E0A5B /* chiayi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4079141BC2A8EF007E0A5B /* Build configuration list for PBXNativeTarget "chiayi" */;
+			buildPhases = (
+				BF4078EE1BC2A8EF007E0A5B /* Sources */,
+				BF4078EF1BC2A8EF007E0A5B /* Frameworks */,
+				BF4078F01BC2A8EF007E0A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chiayi;
+			productName = chiayi;
+			productReference = BF4078F21BC2A8EF007E0A5B /* chiayi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF40790A1BC2A8EF007E0A5B /* chiayiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4079171BC2A8EF007E0A5B /* Build configuration list for PBXNativeTarget "chiayiTests" */;
+			buildPhases = (
+				BF4079071BC2A8EF007E0A5B /* Sources */,
+				BF4079081BC2A8EF007E0A5B /* Frameworks */,
+				BF4079091BC2A8EF007E0A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF40790D1BC2A8EF007E0A5B /* PBXTargetDependency */,
+			);
+			name = chiayiTests;
+			productName = chiayiTests;
+			productReference = BF40790B1BC2A8EF007E0A5B /* chiayiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF4078EA1BC2A8EF007E0A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = gosick;
+				TargetAttributes = {
+					BF4078F11BC2A8EF007E0A5B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					BF40790A1BC2A8EF007E0A5B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = BF4078F11BC2A8EF007E0A5B;
+					};
+				};
+			};
+			buildConfigurationList = BF4078ED1BC2A8EF007E0A5B /* Build configuration list for PBXProject "chiayi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF4078E91BC2A8EF007E0A5B;
+			productRefGroup = BF4078F31BC2A8EF007E0A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF4078F11BC2A8EF007E0A5B /* chiayi */,
+				BF40790A1BC2A8EF007E0A5B /* chiayiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF4078F01BC2A8EF007E0A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4079051BC2A8EF007E0A5B /* LaunchScreen.storyboard in Resources */,
+				BF4079021BC2A8EF007E0A5B /* Assets.xcassets in Resources */,
+				BF4079001BC2A8EF007E0A5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4079091BC2A8EF007E0A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF4078EE1BC2A8EF007E0A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4078F91BC2A8EF007E0A5B /* chiayi.xcdatamodeld in Sources */,
+				BF4078F61BC2A8EF007E0A5B /* AppDelegate.swift in Sources */,
+				BF4078FB1BC2A8EF007E0A5B /* MasterViewController.swift in Sources */,
+				BF4078FD1BC2A8EF007E0A5B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4079071BC2A8EF007E0A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4079101BC2A8EF007E0A5B /* chiayiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF40790D1BC2A8EF007E0A5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF4078F11BC2A8EF007E0A5B /* chiayi */;
+			targetProxy = BF40790C1BC2A8EF007E0A5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF4078FE1BC2A8EF007E0A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4078FF1BC2A8EF007E0A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF4079031BC2A8EF007E0A5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4079041BC2A8EF007E0A5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF4079121BC2A8EF007E0A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF4079131BC2A8EF007E0A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4079151BC2A8EF007E0A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chiayi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gosick.chiayi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF4079161BC2A8EF007E0A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chiayi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gosick.chiayi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF4079181BC2A8EF007E0A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chiayiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gosick.chiayiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chiayi.app/chiayi";
+			};
+			name = Debug;
+		};
+		BF4079191BC2A8EF007E0A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chiayiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gosick.chiayiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chiayi.app/chiayi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF4078ED1BC2A8EF007E0A5B /* Build configuration list for PBXProject "chiayi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4079121BC2A8EF007E0A5B /* Debug */,
+				BF4079131BC2A8EF007E0A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4079141BC2A8EF007E0A5B /* Build configuration list for PBXNativeTarget "chiayi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4079151BC2A8EF007E0A5B /* Debug */,
+				BF4079161BC2A8EF007E0A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF4079171BC2A8EF007E0A5B /* Build configuration list for PBXNativeTarget "chiayiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4079181BC2A8EF007E0A5B /* Debug */,
+				BF4079191BC2A8EF007E0A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF4078F71BC2A8EF007E0A5B /* chiayi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF4078F81BC2A8EF007E0A5B /* chiayi.xcdatamodel */,
+			);
+			currentVersion = BF4078F81BC2A8EF007E0A5B /* chiayi.xcdatamodel */;
+			path = chiayi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF4078EA1BC2A8EF007E0A5B /* Project object */;
+}
